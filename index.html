@@ -135,3 +135,80 @@
 
     form button {
       background: #0077b6;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    form button:hover {
+      background: #023e8a;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#actividades">Actividades</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <header id="inicio">
+    <h1>PowerSports</h1>
+    <p>Tu energía, tu deporte, tu estilo de vida</p>
+    <a href="#actividades">Ver actividades</a>
+  </header>
+
+  <section id="actividades">
+    <h2>Actividades Deportivas</h2>
+    <p>Entrena, diviértete y supera tus límites con nosotros</p>
+    <div class="actividades">
+      <div class="card">
+        <img src="C:\Users\Sala de Computo 12\Documents\RiveraAxel\gimnasio.jpg" alt="Gimnasio">
+        <h3>Gimnasio</h3>
+        <p>Entrenamiento de fuerza y acondicionamiento físico.</p>
+      </div>
+      <div class="card">
+        <img src="C:\Users\Sala de Computo 12\Documents\RiveraAxel\fut.jpg" alt="Fútbol">
+        <h3>Fútbol</h3>
+        <p>Únete a nuestros equipos y vive la pasión por el balón.</p>
+      </div>
+      <div class="card">
+        <img src="C:\Users\Sala de Computo 12\Documents\RiveraAxel\natacion.jpg" alt="Natación">
+        <h3>Natación</h3>
+        <p>Mejora tu resistencia y técnica en nuestras albercas.</p>
+      </div>
+      <div class="card">
+        <img src="C:\Users\Sala de Computo 12\Documents\RiveraAxel\box.jpg" alt="Box">
+        <h3>Box</h3>
+        <p>Defiende, golpea y fortalece tu cuerpo y mente.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <p>¿Listo para comenzar tu entrenamiento?</p>
+    <form>
+      <input type="text" placeholder="Nombre" required>
+      <input type="email" placeholder="Correo" required>
+      <textarea placeholder="Escribe tu mensaje" rows="5" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 PowerSports | Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
